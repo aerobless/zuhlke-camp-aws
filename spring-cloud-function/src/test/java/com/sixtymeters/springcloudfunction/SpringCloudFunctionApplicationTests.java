@@ -15,5 +15,4 @@ class SpringCloudFunctionApplicationTests {
         String output = app.reverseString().apply("hello world");
         assertThat(output).isEqualTo("dlrow olleh");
     }
-
 }

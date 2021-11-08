@@ -17,5 +17,4 @@ public class SpringCloudFunctionApplication {
     public Function<String, String> reverseString() {
         return value -> new StringBuilder(value).reverse().toString();
     }
-
 }
